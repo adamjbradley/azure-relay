@@ -67,6 +67,7 @@ namespace PortBridgeServerAgent
                 {
                     targetHostAlias = localHostName;
                 }
+
                 host.Forwarders.Add(
                     new ServiceConnectionForwarder(
                         serviceNamespace,
